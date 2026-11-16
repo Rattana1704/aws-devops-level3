@@ -1,0 +1,25 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+terraform.tfvars
+lab-env.sh
+crash.log
+
+# Terraform local data and plans
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+crash.log
+
+# Local settings
+*.tfvars
+lab-env.sh
+
+# Backups and private keys
+*.bak
+*.pem
+id_rsa*
