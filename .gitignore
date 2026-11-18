@@ -23,3 +23,13 @@ lab-env.sh
 *.bak
 *.pem
 id_rsa*
+
+# Terraform local artifacts
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+terraform.tfvars
+lab-env.sh
+*.bak
